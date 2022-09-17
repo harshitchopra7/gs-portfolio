@@ -1,0 +1,22 @@
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 7%;
+    background-color: black;
+    color: white;
+}
+.navbar_left {
+    font-size: 25px;
+    font-weight: 700;
+    color: red;
+}
+.navbar_right {
+}
+.navbar_right > a {
+    margin: 0 8px;
+    font-size: 18px;
+}
+.navbar_right > a:hover {
+    cursor: pointer;
+}

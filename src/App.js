@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css"
+import Navbar from "./components/Navbar/Navbar";
+import LandingPage from "./components/LandingPage/LandingPage"
+import TechStack from './components/TechStack/TechStack'
+
+// 1. Navbar
+// 2. LandingPage
+// 3. TechStack
+// 4. Experience
+// 5. Projects
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app_container">
+      <Navbar />
+      <LandingPage />
+      <TechStack />
     </div>
   );
 }
-
 export default App;
+
+// App.js (parent) > components (children)

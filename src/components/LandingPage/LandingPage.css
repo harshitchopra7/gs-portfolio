@@ -1,0 +1,34 @@
+.landingpage_container {
+    background-color: black;
+    color: white;
+    padding: 60px 7%;
+}
+.landingpage_name {
+    font-size: 42px;
+    font-weight: 700;
+    color: red;
+    margin-top: -10px;
+}
+.landingpage_designation {
+    font-size: 28px;
+    margin-top: -20px;
+    font-weight: 700;
+}
+.landingpage_description {
+    font-size: 18px;
+}
+.landingpage_btn {
+    margin: 30px 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    
+}
+.landingpage_btn > a {
+    color: red;
+    text-decoration: none;
+}
+.highlighting {
+    color: red;
+    font-weight: 700;
+}
