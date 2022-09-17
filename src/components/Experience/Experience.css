@@ -1,0 +1,14 @@
+.ex_container {
+    color: white;
+    padding: 50px 7%;
+}
+.ex_title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.ex_boxes_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

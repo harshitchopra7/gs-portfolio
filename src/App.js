@@ -3,6 +3,7 @@ import "./App.css"
 import Navbar from "./components/Navbar/Navbar";
 import LandingPage from "./components/LandingPage/LandingPage"
 import TechStack from './components/TechStack/TechStack'
+import Experience from "./components/Experience/Experience"
 
 // 1. Navbar
 // 2. LandingPage
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <LandingPage />
       <TechStack />
+      <Experience />
     </div>
   );
 }
